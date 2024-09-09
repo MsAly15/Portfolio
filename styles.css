@@ -273,12 +273,18 @@ footer {
     }
 
     .landing-content {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
-
+    .text-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .text-content h1 {
         font-size: 2rem;
+    }
+    .social-media{
+        justify-content: center;
     }
     .social-media a {
         font-size: 20px;
@@ -289,8 +295,8 @@ footer {
     }
 
     .profile-picture img {
-        width: 120px;
-        height: 120px;
+        width: 250px;
+        height: 250px;
     }
 
     .nav-list {
@@ -320,8 +326,8 @@ footer {
     }
 
     .profile-picture img {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
 
     form input, form textarea, form button {
